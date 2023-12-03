@@ -1,0 +1,70 @@
+html {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Arial, sans-serif";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.agendas {
+  display: block;
+  height: 100vh;
+  width: 70vw;
+  float: left;
+  box-sizing: content-box;
+  overflow: auto;
+}
+
+.formulario {
+  height: 100vh;
+  width: 30vw;
+  float: left;
+  border-left: 1px solid black;
+  box-sizing: border-box;
+  outline: 1px solid #45a049;
+}
+
+label {
+  margin-left: 30%;
+  font-size: 40px;
+  display: block;
+  margin-bottom: 3vh;
+  font-weight: bold;
+  margin: auto;
+}
+
+input {
+  margin: auto;
+  margin-left: 10%;
+  width: 80%;
+  height: 5%;
+  padding: 8px;
+  margin-bottom: 5vh;
+  box-sizing: border-box;
+}
+
+button {
+    display: block;
+  font-size: 25px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+}
